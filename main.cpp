@@ -12,7 +12,7 @@ std::ostream& operator<<(std::ostream& os, const std::vector<int> &input)
     }
     return os;
 }
-arrête de faure le voyeur
+
 std::vector<int> aleatoire(const int &x0 ,const  long &a, const int &c, const long &m, const int &taille){
         std::vector<int> x;
         std::cout << taille << "\n";
