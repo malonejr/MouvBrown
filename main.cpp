@@ -27,6 +27,23 @@ std::vector<int> aleatoire(const int &x0 ,const  long &a, const int &c, const lo
         return x;
 }
 
+int periode (std::vector<int> B){
+ 
+    for(int i = 0; i < B.size() ; ++i){
+     
+        
+        if(B[i] == B[2*i])
+        {
+        return i;
+        }
+        
+    }
+    
+    
+}
+
+
+
 int main()
 {
 
