@@ -47,6 +47,8 @@ int periode (std::vector<int> B){
 int main()
 {
 
+    // Les vecteurs
+    
     std::cout << aleatoire(1,13,0,31,10) << std::endl << std::endl;
     std::cout << aleatoire(1,13,0,31,50) << std::endl;
     std::cout << " ******************" << std::endl;
@@ -58,6 +60,14 @@ int main()
     std::cout << " ******************" << std::endl;
     std::cout << aleatoire (1,pow(2,16)+3,0,pow(2,31),10) << std::endl<<std::endl;
     std::cout << aleatoire (1,pow(2,16)+3,0,pow(2,31),50) << std::endl<<std::endl;
+    std::cout << periode(aleatoire(1,13,0,31,1000))<<std::endl;
+    
+    // Les périodes
+    
+    std::cout << periode(aleatoire (1,pow(2,16)+3,0,pow(2,31),1000000))<<std::endl;
+    std::cout << periode(aleatoire(1,1597,51749,244944,1000000))<<std::endl;
+    std::cout << periode(aleatoire(1,1229,1,2048,100000))<<std::endl;
+    
     
 
 
